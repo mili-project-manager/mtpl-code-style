@@ -1,0 +1,8 @@
+[
+  {
+    "type": "confirm",
+    "name": "isUseConventionalCommits",
+    "message": "Conventional Commits",
+    "default": true
+  }
+]

@@ -1,0 +1,3 @@
+{
+  "before-init": "npm init"
+}
