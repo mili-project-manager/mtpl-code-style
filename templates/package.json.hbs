@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "postinstall": "is-ci || husky install",
+    "prepare": "is-ci || husky install",
     "lint": "eslint \"src/**/*.ts\" \"tests/**/*.ts\"  --fix",
     "ca": "git add -A && git-cz -av",
     "ci": "git-cz",
