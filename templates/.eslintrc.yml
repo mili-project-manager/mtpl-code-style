@@ -158,6 +158,7 @@ overrides:
   plugins:
     - '@typescript-eslint'
   rules:
+    '@typescript-eslint/no-floating-promises': error
     'semi': off
     '@typescript-eslint/semi':
       - error
