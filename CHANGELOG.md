@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v0.1.0...v0.1.1) (2021-05-28)
+
+
+### Bug Fixes
+
+* npm package name causes milirc to generate errors ([9ca599d](https://www.github.com/mili-project-manager/mtpl-code-style/commit/9ca599d8e6a01f14f6fa99efc22729352375a65a))
+
 ## [0.1.0](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v0.0.2...v0.1.0) (2021-05-28)
 
 
