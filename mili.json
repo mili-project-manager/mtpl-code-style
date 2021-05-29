@@ -1,9 +1,5 @@
 {
   "engines": [
     ">3.0.0"
-  ],
-  "loaders": [
-    "npm",
-    "git"
   ]
 }

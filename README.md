@@ -4,6 +4,3 @@ Includes:
 
 * eslint
 * lint-staged
-* commitlint
-* commitizen
-* standard-version
