@@ -6,7 +6,7 @@
     ]
   },
   {
-    "path": "package.json",
+    "path": "package.json.hbs",
     "handlers": [
       "handlebars",
       "merge-json"
