@@ -143,48 +143,48 @@ rules:
     - error
     - as-needed
 overrides:
-  files:
-    - '**/*.ts'
-    - '**/*.tsx'
-  extends:
-    - eslint:recommended
-    - plugin:@typescript-eslint/recommended
-    - plugin:@typescript-eslint/recommended-requiring-type-checking
-  parser: '@typescript-eslint/parser'
-  parserOptions:
-    project:
-      - ./tsconfig.json
-      - ./tests/tsconfig.json
-  plugins:
-    - '@typescript-eslint'
-  rules:
-    '@typescript-eslint/no-floating-promises': error
-    'semi': off
-    '@typescript-eslint/semi':
-      - error
-      - never
-    'indent': off
-    '@typescript-eslint/indent':
-      - error
-      - 2
-    '@typescript-eslint/explicit-member-accessibility':
-      - error
-      - overrides:
-          accessors: off
-          constructors: off
-          properties: no-public
-    '@typescript-eslint/explicit-function-return-type':
-      - error
-      - allowHigherOrderFunctions: true
-        allowExpressions: true
-        allowTypedFunctionExpressions: true
-    '@typescript-eslint/member-delimiter-style':
-      - error
-      - multiline:
-          delimiter: none
-    'no-unused-vars': off
-    '@typescript-eslint/no-unused-vars': error
-    'func-call-spacing': off
-    '@typescript-eslint/func-call-spacing':
-      - error
-      - never
+  - files:
+      - '**/*.ts'
+      - '**/*.tsx'
+    extends:
+      - eslint:recommended
+      - plugin:@typescript-eslint/recommended
+      - plugin:@typescript-eslint/recommended-requiring-type-checking
+    parser: '@typescript-eslint/parser'
+    parserOptions:
+      project:
+        - ./tsconfig.json
+        - ./tests/tsconfig.json
+    plugins:
+      - '@typescript-eslint'
+    rules:
+      '@typescript-eslint/no-floating-promises': error
+      'semi': off
+      '@typescript-eslint/semi':
+        - error
+        - never
+      'indent': off
+      '@typescript-eslint/indent':
+        - error
+        - 2
+      '@typescript-eslint/explicit-member-accessibility':
+        - error
+        - overrides:
+            accessors: off
+            constructors: off
+            properties: no-public
+      '@typescript-eslint/explicit-function-return-type':
+        - error
+        - allowHigherOrderFunctions: true
+          allowExpressions: true
+          allowTypedFunctionExpressions: true
+      '@typescript-eslint/member-delimiter-style':
+        - error
+        - multiline:
+            delimiter: none
+      'no-unused-vars': off
+      '@typescript-eslint/no-unused-vars': error
+      'func-call-spacing': off
+      '@typescript-eslint/func-call-spacing':
+        - error
+        - never
