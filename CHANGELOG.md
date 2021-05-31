@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.0.0...v1.0.1) (2021-05-31)
+
+
+### Bug Fixes
+
+* wrong eslint overrieds ([83e77c2](https://www.github.com/mili-project-manager/mtpl-code-style/commit/83e77c211b32e0eb8c14c350a4510e3499271be0))
+
 ## [1.0.0](https://github.com/mili-project-manager/mtpl-code-style/compare/v0.1.3...v1.0.0) (2021-05-31)
 
 
