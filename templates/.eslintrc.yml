@@ -158,6 +158,10 @@ overrides:
     plugins:
       - '@typescript-eslint'
     rules:
+      # TypeORM helpers don't meed the capIsNew rule(eg. In(), Not()).
+      new-cap:
+        - error
+        - capIsNew: false
       '@typescript-eslint/no-floating-promises': error
       'semi': off
       '@typescript-eslint/semi':
