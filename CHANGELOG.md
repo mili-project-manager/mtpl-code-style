@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.0.1...v1.0.2) (2021-06-01)
+
+
+### Bug Fixes
+
+* rule don't work with typeorm ([8015e36](https://www.github.com/mili-project-manager/mtpl-code-style/commit/8015e36cc9492b91d0ca66e94477a4a5999f2a59))
+
 ### [1.0.1](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.0.0...v1.0.1) (2021-05-31)
 
 
