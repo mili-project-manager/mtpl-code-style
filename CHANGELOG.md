@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.0.2...v1.1.0) (2021-06-02)
+
+
+### Features
+
+* close rule that reduce efficiency ([0382ffc](https://www.github.com/mili-project-manager/mtpl-code-style/commit/0382ffccd8672d79c1960569f46cd35293346c51))
+
 ### [1.0.2](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.0.1...v1.0.2) (2021-06-01)
 
 
