@@ -6,7 +6,6 @@ env:
   es6: true
   node: true
 rules:
-  multiline-comment-style: error
   object-shorthand: error
   eqeqeq: error
   no-floating-decimal: error
@@ -36,6 +35,9 @@ rules:
   sort-imports: off
   template-curly-spacing: error
   yield-star-spacing: error
+  multiline-comment-style:
+    - error
+    - separate-lines
   indent:
     - error
     - 2
@@ -158,6 +160,11 @@ overrides:
     plugins:
       - '@typescript-eslint'
     rules:
+      # The third-party dependency type declaration is not perfect
+      # Enabling these three rules will seriously reduce development efficiency
+      '@typescript-eslint/no-unsafe-call': off
+      '@typescript-eslint/no-unsafe-member-access': off
+      '@typescript-eslint/no-unsafe-assignment': off
       # TypeORM helpers don't meed the capIsNew rule(eg. In(), Not()).
       new-cap:
         - error
