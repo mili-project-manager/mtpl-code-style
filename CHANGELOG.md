@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.1.0...v1.2.0) (2021-06-04)
+
+
+### Features
+
+* can custom .vscode/settings.json ([6388c14](https://www.github.com/mili-project-manager/mtpl-code-style/commit/6388c149f2374bab3f68ce2b044eb392e25835ec))
+
 ## [1.1.0](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.0.2...v1.1.0) (2021-06-02)
 
 
