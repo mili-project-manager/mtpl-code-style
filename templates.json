@@ -1,5 +1,11 @@
 [
   {
+    "path": ".vscode/settings.json",
+    "handlers": [
+      "merge-json"
+    ]
+  },
+  {
     "path": ".eslintrc.yml",
     "handlers": [
       "merge-yaml"
