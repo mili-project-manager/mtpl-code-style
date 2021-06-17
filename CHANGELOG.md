@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.3](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.2.2...v1.2.3) (2021-06-17)
+
+
+### Bug Fixes
+
+* eslint throw error when declare async function ([ba469a0](https://www.github.com/mili-project-manager/mtpl-code-style/commit/ba469a0e0d65135c0f4184f384d9d49f81c785e8))
+
 ### [1.2.2](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.2.1...v1.2.2) (2021-06-16)
 
 
