@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.4](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.2.3...v1.2.4) (2021-07-08)
+
+
+### Bug Fixes
+
+* wrong lint error in jsx file ([c356178](https://www.github.com/mili-project-manager/mtpl-code-style/commit/c356178ac0a7ce0a3132c54f45ac7b9c6d294aa6))
+
 ### [1.2.3](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.2.2...v1.2.3) (2021-06-17)
 
 
