@@ -3,6 +3,17 @@
     "lint": "eslint \"src/**/*.ts\" \"tests/**/*.ts\"  --fix"
   },
   "devDependencies": {
-    "husky": "^5.2.0"
+{{#if (equals answers.framework "react")}}
+    "@babel/eslint-parser": "^7.13.14",
+{{/if}}
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "eslint": "^7.20.0",
+{{#if (equals answers.framework "react")}}
+    "eslint-plugin-react": "^6.10.3",
+    "eslint-plugin-react-hooks": "^4.2.0",
+{{/if}}
+    "husky": "^5.2.0",
+    "lint-staged": "^11.0.0"
   }
 }

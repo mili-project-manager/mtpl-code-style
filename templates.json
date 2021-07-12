@@ -6,8 +6,9 @@
     ]
   },
   {
-    "path": ".eslintrc.yml",
+    "path": ".eslintrc.yml.hbs",
     "handlers": [
+      "handlebars",
       "merge-yaml"
     ]
   },

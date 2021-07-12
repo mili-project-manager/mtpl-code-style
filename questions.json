@@ -1,0 +1,11 @@
+[
+  {
+    "type": "list",
+    "name": "framework",
+    "message": "Which module you want to generate",
+    "choices": [
+      "node",
+      "react"
+    ]
+  }
+]

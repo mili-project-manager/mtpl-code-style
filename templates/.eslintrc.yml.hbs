@@ -1,9 +1,23 @@
-extends:
-  - eslint:recommended
-  - plugin:react/recommended
+{{#if (equals answers.framework "react")}}
+parser: '@babel/eslint-parser'
+plugins:
+  - react
+  - react-hooks
+globals:
+  localStorage: true
+  fetch: true
+  process: true
+{{/if}}
 parserOptions:
   ecmaVersion: 2017
   sourceType: module
+{{#if (equals answers.framework "react")}}
+  ecmaFeatures:
+    jsx: true
+{{/if}}
+extends:
+  - eslint:recommended
+  - plugin:react/recommended
 env:
   es6: true
   node: true
