@@ -163,6 +163,10 @@ rules:
   arrow-parens:
     - error
     - as-needed
+  no-implicit-coercion:
+    - error
+    - allow
+      - '!!'
 overrides:
   - files:
       - '**/*.ts'
