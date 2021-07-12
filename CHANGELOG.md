@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.2](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.4.1...v1.4.2) (2021-07-12)
+
+
+### Bug Fixes
+
+* eslint allow should be object ([e756954](https://www.github.com/mili-project-manager/mtpl-code-style/commit/e756954c0f1c4ede0857538bbbb2ca69fc4618ae))
+
 ### [1.4.1](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.4.0...v1.4.1) (2021-07-12)
 
 
