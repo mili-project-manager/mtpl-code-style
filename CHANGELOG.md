@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.2.4...v1.3.0) (2021-07-12)
+
+
+### Features
+
+* framework selection ([f20ebdb](https://www.github.com/mili-project-manager/mtpl-code-style/commit/f20ebdbe60d7504ddb19c55d5d7d57cd8ff99836))
+
 ### [1.2.4](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.2.3...v1.2.4) (2021-07-08)
 
 
