@@ -17,7 +17,9 @@ parserOptions:
 {{/if}}
 extends:
   - eslint:recommended
+{{#if (equals answers.framework "react")}}
   - plugin:react/recommended
+{{/if}}
 env:
   es6: true
   node: true
