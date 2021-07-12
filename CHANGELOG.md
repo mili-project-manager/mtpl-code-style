@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.4.0...v1.4.1) (2021-07-12)
+
+
+### Bug Fixes
+
+* duplicated eslint key ([b845d72](https://www.github.com/mili-project-manager/mtpl-code-style/commit/b845d720d4d87561fe73e33a35d0069462f19c1a))
+
 ## [1.4.0](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.3.1...v1.4.0) (2021-07-12)
 
 
