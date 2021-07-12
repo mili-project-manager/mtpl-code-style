@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.3](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.4.2...v1.4.3) (2021-07-12)
+
+
+### Bug Fixes
+
+* remove git add in lint-stage ([bda372b](https://www.github.com/mili-project-manager/mtpl-code-style/commit/bda372b1c385a47269e2ce8463c91efe420d9f2b))
+
 ### [1.4.2](https://www.github.com/mili-project-manager/mtpl-code-style/compare/v1.4.1...v1.4.2) (2021-07-12)
 
 
